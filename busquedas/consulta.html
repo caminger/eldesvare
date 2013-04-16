@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script language="Javascript" src="validations.js"> 
+	alert (' Error con al Ejecutar js ');  
+</script>
+<script type="text/javascript" src="stmenu.js"></script>
+<script language='javascript' src="calendario/popcalendar.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EL DESVARE.COM</title>
+
+<link href="css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+
+
+
+
+
+
+<div class="Estructura">
+<form name="form1" method="POST" action="consulta_busquedas.php">
+<table  class="tablaGeneral" align="center" width="80%" >
+  <tr>
+    <td><div class="cabezote"><img src="imagenes/cabezote.jpg" width="731" height="104" /></div></td>
+  </tr>
+  <tr class="cuerpo">
+    <td>
+    <div class="divPrincipal">
+                  <table width="261" align="center" cellpadding="0" cellspacing="0" >
+                      
+                    <tr>
+                        <td colspan="3" class="tituloTabla">Seleccione el rango de fecha</td>
+                      </tr>
+                    <tr>
+                      <td colspan="3" style="color:#FF0000;"></td>
+                    </tr>
+
+                    <tr>
+                      <td width="120" height="30" class="td">Fecha inicio:</td>
+                     
+      
+                      <td width="139" > <input name="date1" type="text" id="date1" onClick="popUpCalendar(this, form1.date1, 'yyyy-mm-dd');" size="10"></td>
+                    </tr>
+                    <tr>
+                      <td height="28" class="td">Fecha final:</td>
+                      
+                	<td><input name="date2" type="text" id="date2" onClick="popUpCalendar(this, form1.date2, 'yyyy-mm-dd');" size="10"></td></tr>
+                    <tr>
+                      <td colspan="3" bordercolor="0" align="center">
+                        <input name="button" type="button"  onClick="login5()" value="Enviar">
+                      </td>
+                  </tr>
+                </table>
+</div>
+<a href="Consulta.html"><strong>Regresar</strong></a>
+	</td>
+  </tr>
+  <tr>
+    <td><div class="footer">
+      <p><br/> 
+        &copy; 2012  </p>
+    </div></td>
+  </tr>
+</table>
+</form>
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

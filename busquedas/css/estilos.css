@@ -1,0 +1,88 @@
+@charset "utf-8";
+body {
+	background-image: url(../imagenes/fondo.png);
+	background-repeat: repeat;
+	font-family:"Courier New", Courier, monospace;
+	color:#666;
+}
+.Estructura{
+	margin-left: 150px;
+	margin-right: -250px;
+	margin-top: 20px;
+	margin-bottom: -50px;
+	width: 800px;
+	height: 400px;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 20px;
+}
+.divPrincipal {
+	padding: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	border-top-style: none;
+	background-color: #CCC;
+}
+
+.tablaGeneral tr .tituloTabla {
+	font-size: 14px;
+	font-weight: regular;
+	color: #FFF;
+	background-color: #069;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.tituloTabla2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #069;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.cuerpo {
+	background-color: #FFF;
+	font-family: "Verdana, Geneva, sans-serif;";
+	margin-top: 10px;
+	padding-top: 10px;
+	text-align: center;
+}
+.btnIngreso {
+	text-align: center;
+	border: 1px dashed #CCC;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.cabezote {
+	background-image: url(../imagenes/bag-cabezote.jpg);
+	background-repeat: repeat-x;
+	vertical-align: top;
+	/*width: 783px;*/
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.td {
+	font-size: 14px;
+	color: #333;
+	font-weight: normal;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.footer {
+	background-image: url(../imagenes/footer.jpg);
+	background-repeat: repeat-x;
+	height: 60px;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 8px;
+	padding-right: 30px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+	font-weight: bolder;
+}
+.vencimientos {
+	color: #000;
+	background-color: #0F0;
+}
+.Estructura .tablaGeneral .cuerpo td .divPrincipal table tr .td {
+	text-align: justify;
+}

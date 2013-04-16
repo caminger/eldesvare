@@ -1,0 +1,6 @@
+AuthName "Autentifiquese para ver esta página"
+AuthUserFile /var/www/vhosts/eldesvare.com/httpdocs/.htpasswds/public_html/privado/passwd
+AuthType basic
+Require valid-user
+
+

@@ -1,0 +1,2801 @@
+/* Basic Typography & Colors
+
+-------------------------------------------------------------- */
+
+/* Add general site styling here for typography and background */
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 65%;   /* also set in fusion_starter.info: settings[base-font-size] = font-size-12 */
+}
+/* Default link styles - separate a:visited for a different visited link style */
+
+a, a:link, a:visited 
+color:#0082CA;
+}
+/* Hover/active link styles. Don't forget :focus for accessibility */
+
+a:hover, a:focus, a:active {
+}
+h1, h2 {
+	color: #0082CA;
+}
+h3 {
+	background-color: transparent;
+	color: #0082CA;
+	padding-left: 10px;
+	font-size:12px;
+}
+/* Specific Typography
+-------------------------------------------------------------- */
+
+#site-name {
+	font-size: 300%;
+	font-weight: normal;
+	line-height: 150%;
+	margin: 0;
+}
+.footer-message {
+	font-size: 90%;
+}
+/* HTML Elements
+
+-------------------------------------------------------------- */
+
+body {
+}
+/* Site Info
+
+-------------------------------------------------------------- */
+
+/* Wrapper around logo, site name, and slogan */
+
+.header-site-info span {
+	display: block;
+}
+/* Add float here to put logo and site name side by side, also add margins as
+
+  needed */
+
+#logo {
+}
+/* Link and hover styles for site name */
+
+#site-name a:link, #site-name a:visited, #site-name a:hover, #site-name a:active {
+}
+/* Typography for site slogan */
+
+#slogan {
+}
+/* Regions
+
+
+
+  Classes (.region-name) should always be used instead of IDs (#region-name) so
+
+  that skin styles can override them with a class later
+
+-------------------------------------------------------------- */
+
+
+
+/* All Regions
+
+-------------------------------------------------------------- */
+
+/* By default this wrapper is set to 100% width and centered -- override here to
+
+  narrow wrapper or align left or right */
+
+.page {
+}
+/* The 0 values here remove padding and spacing at the bottom of the page.
+
+  Remove to add a gap at the very bottom of the page */
+
+.page-inner {
+	border: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+#breadcrumbs.block {
+	margin: 2px 0 0 0;
+}
+#breadcrumbs {
+	padding:5px 0 0 0;
+}
+
+/* Header Regions
+-------------------------------------------------------------- */
+
+/* Header Top region to the bottom of Header region */
+
+/* For full-width header background, add background image/color here */
+
+.header-group-wrapper {
+}
+.header-group {
+}
+/* Header Top region which sits above the header */
+
+/* Works well with inline login or inline menu block style */
+
+.header-top-wrapper {
+	background-color: #0082CA;
+	color: #FFF;
+	height: 30px;
+	line-height: 27px;
+	margin-bottom: 4px;
+}
+.header-top2-wrapper {
+	background-color: #F60;
+	color: #FFF;
+	height: 30px;
+	line-height: 13px;
+	margin-bottom: 1px;
+}
+.header-top-wrapper a {
+	color: #FFF;
+}
+
+
+#header-top-wrapper p, #header-top-wrapper .block {
+	margin: 0;
+}
+#header-top2-wrapper p, #header-top-wrapper .block {
+	margin: 0;
+}
+
+#block-block-2 {
+	float: left;
+	width: 240px;
+}
+#block-block-2.block {
+	margin-left: 350px;
+}
+.header-top {
+	font-size:14px;
+}
+#header-group .gutter {
+	margin: 0;
+}
+#logo, #header-site-info-inner, #header-site-info {
+	width: 250px;
+}
+#header-site-info {
+	float: left;
+	position: relative;
+}
+#block-block-8 {
+	float:right;
+	width: 690px;
+}
+#block-block-8 .search-form {
+	margin: 0;
+}
+#block-search-form {
+	clear: right;
+	float: right;
+	margin: 0;
+	position: relative;
+	width: 690px;
+}
+
+#block-block-6 {
+	float: right;
+	width: 180px;
+	text-align:right;
+}
+
+#block-block-6 .inner {
+	margin:0;
+}
+
+/* search form
+/------------------------------------------------------------------------ */
+
+form#search-block-form .container-inline {
+	background-color: #0082CA;
+	color: #FFF;
+	height: 56px;
+	margin-top: 30px;
+	width: 690px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+form#search-block-form .form-item {
+	margin: 2px 0;
+}
+form#search-block-form label {
+	display: block;
+	font-size:14px;
+	width: 165px;
+}
+.form-item.form-type-textfield.form-item-search-block-form label {
+	font-weight: bold;
+}
+.form-item.form-type-select.form-item-custom-search-vocabulary-2 label {
+	font-weight: normal;
+}
+.form-item.form-type-select.form-item-custom-search-vocabulary-10 label {
+	font-weight: normal;
+}
+.form-item.form-type-select.form-item-custom-search-vocabulary-12 label {
+	font-weight: normal;
+}
+form#search-block-form .form-item-search-block-form {
+	float: left;
+	margin-left: 10px;
+	width: 255px;
+}
+.front form#search-block-form .form-item-search-block-form {
+	width: 255px;
+}
+.form-item-search-block-form input {
+	height: 14px;
+	width: 240px;
+}
+.form-item-custom-search-vocabulary-2 {
+	float: left;
+	width: 180px;
+}
+.form-item-custom-search-vocabulary-2 select {
+	width: 170px;
+}
+.form-item-custom-search-vocabulary-10 {
+	float: left;
+	width: 160px;
+}
+.form-item-custom-search-vocabulary-10 select {
+	width: 150px;
+	color:#0082CA;
+	font-size:11px;
+}
+.form-item-custom-search-vocabulary-12 {
+	float: left;
+	width: 180px;
+}
+.form-item-custom-search-vocabulary-12 select {
+	width: 170px;
+	color:#0082CA;
+	font-size:11px;
+}
+input#edit-submit--2 {
+	margin-top: 24px;
+}
+input[type=submit] {
+	background: url("../images/BtnBuscar.png") no-repeat scroll left top #FECC15;
+	border: medium none;
+	height: 17px;
+	margin-top: 22px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#search-block-form #edit-actions {
+  margin-top: -5px;
+}
+#search-block-form input[type=submit] {
+    background-color: #FCCE39;
+    background-image: none;
+    border-radius: 4px 4px 4px 4px;
+	font-size:12px;
+    height: 20px;
+    margin: 20px 15px 2px 0;
+    padding: 0px 10px 4px;
+}
+/* Main Menu
+/-------------------------------------------------------------- */
+
+/* Add general styles for main menu here, such as typography, borders, floats,
+
+  or spacing above/below */
+
+.main-menu {
+	color: #0082CA;
+}
+#main-menu ul.menu {
+	float: right;
+	width: 330px;
+	margin-right:-72px;
+}
+
+/* styles for Superfish main menu */
+
+.main-menu-inner ul.menu {
+}
+/* Link style for top level menu items, add padding here */
+
+.main-menu-inner ul.menu a, .main-menu-inner ul.menu a:visited {
+}
+.main-menu-inner ul.menu a:hover, .main-menu-inner ul.menu a:active, .main-menu-inner ul.menu a:focus {
+}
+/* These are the top level menu items, add border-right here for separators */
+
+.main-menu-inner ul.menu li {
+	line-height: 100%;
+}
+.main-menu-inner ul.menu li a {
+	border-right: 1px solid #0082CA;
+	color: #0082CA;
+	padding: 0 13px;
+}
+.main-menu-inner ul.menu li.last a {
+	border-right: none;
+	padding-right: 0;
+}
+/* Add border-right: 0; here to remove separator on last menu item */
+
+.main-menu-inner ul.menu li.last {
+}
+/* Style for container of dropdown, add background or border */
+
+.main-menu-inner ul.menu ul {
+}
+/* Style for individual dropdown menu items, add border-bottom for separators */
+
+.main-menu-inner ul.menu li li {
+	background-color: #fff;
+}
+.main-menu-inner ul.menu li li.last {
+}
+.main-menu-inner ul.menu li li li {
+}
+/* Style for hover of dropdown menu items (add background-color here) */
+
+.main-menu-inner ul.menu li ul li:hover, .main-menu-inner ul.menu li ul li.sfHover {
+}
+/*  Preface Regions
+-------------------------------------------------------------- */
+
+/* The Preface Top region sits between the header and the Main Area
+
+ (columns, sidebars, and main content).  The Preface Bottom region
+
+ is inside the Main Area. */
+
+.preface-top-wrapper {
+}
+.preface-top {
+}
+.preface-top-inner {
+}
+.preface-bottom {
+}
+.preface-bottom-inner {
+}
+/*  Main Area (content + sidebars + preface bottom + postscript top)
+
+-------------------------------------------------------------- */
+
+.main-wrapper {
+}
+/* Sidebar Regions
+-------------------------------------------------------------- */
+
+/* Sidebar widths can be controlled through theme settings */
+
+.sidebar-first {
+}
+#sidebar-first .inner {
+	margin: 0;
+}
+.sidebar-second {
+}
+/* menu secundario - categorias
+/--------------------------------------------------------------- */
+#sidebar-first.grid12-3, #block-nice_menus-1.grid12-3 {
+	width: 250px;
+}
+#block-nice_menus-1 .gutter {
+	background-color: #E3E3E3;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+#block-nice_menus-1 .gutter h2 {
+	background: transparent url(../images/Categorias.png) no-repeat left top;
+	color: #0082CA;
+	height: 28px;
+	padding: 4px 0 0 52px;
+}
+#block-nice_menus-1 .gutter h2 a {
+	color: #0082CA;
+}
+#sidebar-first, #sidebar-first a {
+	color: #000;
+	font-size:13px;
+}
+#sidebar-first a:hover {
+	color:#0082CA;
+	text-decoration:none;
+	font-weight: bold;
+}
+#sidebar-first h2.title a {
+	font-size:14px;
+}
+#sidebar-first ul li.leaf {
+	list-style: none;
+}
+ul#nice-menu-1 {
+	border: none;
+	margin: 0px !important;
+	padding:0px !important;
+	width:250px;
+}
+ul#nice-menu-1 > li {
+	background-color: transparent;
+	border: none;
+	padding:0 3px 0 7px;
+	width: 240px;
+}
+ul#nice-menu-1 ul {
+	left: 250px;
+}
+ul#nice-menu-1 ul li {
+	background: rgba(255,255,255,.9);
+}
+ul#nice-menu-1 > li:hover {
+	background-color:#fff;
+}
+
+/* Content Regions
+-------------------------------------------------------------- */
+
+.content {
+}
+.content-inner {
+}
+/* This region only appears on full node pages. It's useful for ads or other
+
+  content between the body of the node and its comments */
+
+.node-bottom {
+}
+#main-group {
+	background-color: #E3E3E3;
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+.front #main-group {
+	background-color: transparent;
+}
+
+/* front
+/--------------------------------------------------------------- */
+
+.front h1.title {
+	display: none;
+}
+.front #block-views-rotador_principal_home-block, .front #block-views-recomendados-block, .front #block-system-main {
+	display: block;
+	height: 180px;
+	overflow: hidden;
+	width: 690px;
+}
+.front #block-views-rotador_principal_home-block {
+	height: 340px;
+	margin:0;
+}
+.front #block-views-rotador_principal_home-block .inner {
+	margin:0;
+}
+
+.front #block-views-rotador_principal_home-block .jcarousel-prev, .front #block-views-rotador_principal_home-block .jcarousel-next, .front #block-views-rotador_principal_home-block .jcarousel-navigation {
+/*display:none;*/
+}
+.front #block-views-rotador_principal_home-block .jcarousel-container {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.front #block-views-rotador_principal_home-block .jcarousel-item {
+	width: 690px !important;
+}
+.front #first-time {
+	display: none;
+}
+#main-group.grid12-9,
+#content-group .grid12-9,
+#postscript-top.grid12-9,
+#main-group.grid12-9 #content-group.grid12-9,
+#main-group.grid12-9 #content.grid12-9 {
+	width: 690px;
+}
+.front #main-content {
+	display: none;
+}
+#main-group {
+	float: right;
+}
+/* slider home */
+#block-views-rotador_principal_home-block {
+}
+.front ul.jcarousel-navigation {
+	margin: -15px 0 0;
+	padding: 0;
+	position: absolute;
+	right: 0;
+	z-index: 9;
+}
+.front ul.jcarousel-navigation li {
+	background: url("../images/slide_inact.png") no-repeat scroll 0 0 transparent;
+	display: inline-block;
+	height: 12px;
+	width: 12px;
+	font-size: 0;
+}
+.front ul.jcarousel-navigation li.active {
+	background: url("../images/slide_act.png") no-repeat scroll 0 0 transparent;
+}
+#block-views-rotador_principal_home-block {
+	height: 340px;
+}
+.front ul.jcarousel-view--rotador-principal-home--block li {
+	margin-left:0px; /* -----------------------------------------------------------
+	aqui hay un error con -9 funciona la primera tanda de sliders pero se daÃ±a de la segunda en adelante, con -12 se ve mal la primera pero las demÃ¡s repeticiones cuadran
+	--------------------------------------------------------------------------------- */
+}
+/* recomendados home */
+.front .jcarousel-container {
+	padding-top: 0;
+}
+.front .jcarousel-skin-tango .jcarousel-container {
+	background: none;
+	border: none;
+	width: 590px;
+}
+.front .jcarousel-clip-horizontal {
+	width: 690px;
+	margin:0;
+}
+.front .view-recomendados .jcarousel-clip-horizontal {
+	margin-left: 5px;
+	width:580px;
+}
+.jcarousel-skin-tango .jcarousel-container li {
+	height: 126px !important;
+	line-height:12px;
+	padding:5px !important;
+	width: 126px !important;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+	margin-bottom:10px;
+    width: 138px;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical {
+  padding: 40px 1px;
+}
+.jcarousel-skin-tango .jcarousel-container-vertical .views-field-title a {
+	color:#000;
+	font-weight:bold;
+}
+.front .views-field-field-logo,
+.front .views-field-field-ciudad,
+.front .views-field-field-web,
+.front .views-field-title,
+.front .views-field-nid {
+    display: block;
+    text-align: left;
+}
+.views-field-field-logo {
+	margin-bottom:5px;
+}
+.front #block-views-recomendados-block ul.jcarousel-navigation {
+	display: none;
+}
+#block-views-recomendados-block {
+	background-color: #e3e3e3;
+	border-radius: 20px;
+}
+#block-views-recomendados-block, #block-views-recomendados-block a {
+	color: #000;
+	font-size: 11px;
+	text-align: left;
+}
+.rate-fivestar-btn-filled {
+	background:url(../images/starfull.png) no-repeat center top;
+	height: 8px;
+	width: 9px;
+}
+.rate-fivestar-btn-empty {
+	background:url(../images/starempty.png) no-repeat center top;
+	height: 8px;
+	width: 9px;
+}
+.jcarousel-container ul.rate-fivestar-processed li {
+	height:8px !important;
+	padding:0 1px 0 0 !important;
+	width:9px !important;
+}
+.rate-info {
+	display:none;
+}
+ul.rate-fivestar-processed {
+	margin-bottom:0;
+}
+#block-views-recomendados-block .views-field-nid span > a {
+	color:#0082CA;
+	float:right;
+    font-weight: bold;
+	text-align:right;
+	width:126px;
+}
+.jcarousel-skin-tango .jcarousel-item span > a {
+	color:#0082CA;
+}
+#block-views-recomendados-block h2 {
+	font-size: 14px;
+	margin: 8px 0 0 0;
+	padding-left: 50px;
+}
+.jcarousel-skin-tango .jcarousel-next,
+.jcarousel-skin-tango .jcarousel-next:hover {
+	background: transparent url(../images/FlechaDerecha.png) no-repeat center top;
+}
+.jcarousel-skin-tango .jcarousel-prev,
+.jcarousel-skin-tango .jcarousel-prev:hover {
+	background: transparent url(../images/FlechaIzquierda.png) no-repeat center top;
+}
+/* AnimaciÃ³n Banner de registro */
+#block-block-4 {
+	/*background-color: #E3E3E3;*/
+	color: #FFFFFF;
+	font-size: 28px;
+	height: 200px;
+	line-height: 30px;
+	/*padding-top: 40px;*/
+	text-align: center;
+}
+/* publicidad home */
+#block-block-9 {
+	/*background-color: #E3E3E3;*/
+	color: #DADADA;
+	font-size: 60px;
+	height: 90px;
+	line-height: 90px;
+	margin-bottom:0;
+	text-align: center;
+	width: 690px;
+}
+#block-block-9 p {
+	margin: 0;
+}
+#block-block-11 .inner {
+	margin:0;
+}
+
+/* bloque publicidad horizontal inferior
+/--------------------------------------- */
+#block-block-13 {
+    background-color: #E3E3E3;
+    color: #DADADA;
+	float:right;
+    font-size: 60px;
+	line-height:60px;
+	margin-bottom:10px;
+    text-align: center;
+    width: 690px;
+}
+
+#block-block-13 p {
+	margin:10px;
+}
+
+/*  Postscript & Footer Regions
+-------------------------------------------------------------- */
+
+.postscript-top {
+}
+.postscript-top-inner {
+}
+.postscript-bottom-wrapper {
+}
+.postscript-bottom {
+}
+.postscript-bottom-inner {
+}
+.footer-wrapper {
+	background: #0082CA url(../images/bck.pie.png) no-repeat center top;
+	color: #FFF;
+	height: 160px;
+}
+.footer-wrapper a {
+	color: #FFF;
+	font-size:12px;
+}
+.footer {
+}
+.footer-inner {
+}
+#block-block-15 {
+	font-size:11px;
+	margin:60px 0 0 0;
+	text-align:right;
+}
+/* Page titles
+
+/-------------------------------------------------------------- */
+
+/* Page and full node titles */
+
+h1.title {
+	font-size:14px;
+}
+/* Default node styles
+
+/-------------------------------------------------------------- */
+
+/* Change unpublished and preview colors for dark background themes */
+
+.node-unpublished {
+	background-color: #fff4f4;
+}
+.preview .node {
+	background-color: #ffffea;
+}
+/* Typography for node titles */
+
+h2.title {
+}
+/* Colors and styles for linked node titles, ie. teaser listing at /node */
+
+h2.title a:link, h2.title a:visited {
+}
+h2.title a:hover, h2.title a:focus, h2.title a:active {
+}
+/* Separators and padding for node teasers */
+
+.node-teaser {
+}
+/* Author/date info */
+
+.meta {
+}
+.submitted {
+}
+/* Links for nodes (taxonomy, commenting, read more, etc) */
+
+.node ul.links li {
+}
+.node ul.links a {
+}
+/* Only more/read more links */
+
+div.node .read-more a, div.node .more-link a {
+}
+/* Drupal Messages
+
+/-------------------------------------------------------------- */
+
+/* General style for all errors/messages (border, padding, etc.) */
+
+div.content-messages div.messages, div.content-help div.help {
+}
+/* Status messages: green */
+
+div.content-messages-inner div.status {
+}
+/* Warning messages: yellow */
+
+div.content-messages-inner div.warning {
+}
+/* Error messages: red */
+
+div.content-messages-inner div.error {
+}
+/* Help messages: blue */
+
+div.content-help-inner div.help {
+}
+/* Error that appears when a required form field is not filled out */
+
+.form-item input.error, .form-item textarea.error, .form-item select.error {
+	border: 1px solid #aa1144;
+}
+/* "New" text and required form field asterisk (default = red) */
+
+.marker, .form-required {
+	color: #aa1144;
+}
+/* Default block title styles
+
+/-------------------------------------------------------------- */
+
+h2.block-title {
+	font-size:12px;
+}
+/* Breadcrumbs
+
+-------------------------------------------------------------- */
+
+.breadcrumbs {
+}
+.breadcrumbs a:link, .breadcrumbs a:visited {
+	color: #000;
+	font-size:10px;
+}
+/* Tab Menus
+
+/-------------------------------------------------------------- */
+
+#content-tabs {
+	background-color: transparent;
+	float: left; /* LTR */
+	margin: 20px 0;
+	padding: 0;
+}
+#content-tabs ul.primary, #content-tabs ul.secondary {
+	border-bottom: 1px solid #000;
+	clear: both;
+	float: left; /* LTR */
+	margin: 0;
+	padding: 0 10px;
+}
+#content-tabs ul.secondary {
+	border-bottom: 1px solid #555;
+	margin-top: 10px;
+	text-transform: lowercase;
+}
+#content-tabs ul.primary li, #content-tabs ul.secondary li {
+	border-style: none;
+	display: inline;
+	float: left; /* LTR */
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+#content-tabs ul.primary li a:link, #content-tabs ul.primary li a:visited, #content-tabs ul.secondary li a:link, #content-tabs ul.secondary li a:visited {
+	background-color: transparent;
+	border: none;
+	color: #000;
+	float: left; /* LTR */
+	font-weight: bold;
+	margin: 0;
+	padding: 0 0 6px 0;
+	text-decoration: none;
+	white-space: nowrap;
+}
+#content-tabs ul.secondary li a:link, #content-tabs ul.secondary li a:visited {
+	color: #555;
+}
+#content-tabs ul.primary li a.active:link, #content-tabs ul.primary li a.active:visited {
+	border-bottom: 4px solid #000;
+	color: #555;
+	padding-bottom: 2px;
+}
+#content-tabs ul.secondary li a.active:link, #content-tabs ul.secondary li a.active:visited {
+	border-bottom: 4px solid #555;
+	color: #777;
+	padding-bottom: 2px;
+}
+#content-tabs ul.primary li a:hover, #content-tabs ul.primary li a:focus, #content-tabs ul.secondary li a:hover, #content-tabs ul.secondary li a:focus {
+	border-bottom: 4px solid #777;
+	color: #777;
+	padding-bottom: 2px;
+}
+/* Pagers
+
+-------------------------------------------------------------- */
+
+ul.pager {
+}
+ul.pager li {
+}
+ul.pager a, ul.pager li.pager-current {
+	border-color: #333;
+}
+ul.pager li.pager-current {
+	background-color: #777;
+	color: #fff;
+}
+ul.pager a:hover, ul.pager a:active, ul.pager a:focus {
+	background-color: #777;
+	border-color: #333;
+	color: #fff;
+}
+/* Forms
+
+/-------------------------------------------------------------- */
+
+/* Typography and backgrounds for all form buttons */
+
+form input.form-submit {
+	margin: 2px;
+	padding: 3px 5px;
+}
+/* Hover style for form buttons */
+
+form input.form-submit:hover, form input.form-submit.hover, form input.form-submit:focus {
+}
+/* Typography, background, borders, padding for form fields */
+
+.form-item input, .form-item select, .form-item textarea {
+}
+/* Remove backgrounds and border on radios and checkboxes */
+
+.form-item .form-radio, .form-item .form-checkbox {
+	background: none;
+	border: none !important;
+}
+/* Fieldset wrapper around groups of form elements -- add border here */
+
+fieldset {
+}
+/* Typography and spacing for legend of fieldsets */
+
+fieldset legend {
+}
+/* Link style for legend of fieldsets */
+
+fieldset legend, legend.collapse-processed, legend.collapse-processed a:link, legend.collapse-processed a:visited {
+}
+/* Custom icons on (open) collapsible fieldsets */
+
+html.js fieldset.collapsible legend a:link, html.js fieldset.collapsible legend a:visited {
+}
+/* Custom icons on (closed) collapsible fieldsets */
+
+html.js fieldset.collapsed legend a:link, html.js fieldset.collapsed legend a:visited {
+}
+/* Tables
+
+-------------------------------------------------------------- */
+
+table {
+}
+/* Body of tables */
+
+tbody {
+	border-top: 1px solid #ccc;
+}
+/* Header of tables */
+
+thead th, th {
+	border-bottom: 3px solid #ccc;
+}
+tbody th {
+	border-bottom: 1px solid #ccc;
+}
+/* Alternating row background styles */
+
+tr.even, tr.even td {
+	background-color: #eee;
+	border-bottom: 1px solid #ccc;
+}
+tr.odd, tr.odd td {
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+td.active {
+}
+tr.drag td, tr.drag-previous td {
+	color: #000;
+}
+/* Maintenance Page
+
+/-------------------------------------------------------------- */
+
+/* Maintenance page tpl file in Fusion Core has simplified layout, but you can
+
+  also add specific styles, such as a background, just for your offline page */
+
+.in-maintenance {
+}
+/*--------------------------------------------------------------*/
+
+/* Module styles
+
+/-------------------------------------------------------------- */
+
+
+
+
+
+/* Book
+
+/-------------------------------------------------------------- */
+
+.book-navigation .menu {
+	border-top: 1px solid #ccc;
+}
+.book-navigation .page-links {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+/* Comments
+
+/-------------------------------------------------------------- */
+
+/* Style for each individual comment */
+
+div.comment {
+	padding: 0px;
+}
+/* Subject (title) of each comment */
+
+div.comment h3.title {
+}
+/* Links (edit, reply, delete) for each comment */
+
+div.comment div.links a, div.comment ul.links a {
+}
+/* Alternating styles for even/odd comments */
+
+.comments .comment {
+	margin:0;
+}
+
+.comments  .content {
+	margin-left:1.5em;
+}
+
+.comments .comment.odd {
+	background-color: #fff;
+}
+.comments .comment.even {
+	background-color: #fff;
+}
+/* A special highlight style for a comment by the author of the node */
+
+.comments div.comment-by-author {
+	background-color: #ddd;
+}
+/* Comment signatures */
+
+.signature {
+	border-top: 1px solid #d6ddb9;
+}
+/* User avatars in comments */
+
+.comment-wrapper .picture img {
+}
+/* Forum
+
+/-------------------------------------------------------------- */
+
+#forum .description {
+}
+.forum-topic-navigation {
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+}
+/* Poll
+
+/-------------------------------------------------------------- */
+
+div.poll div.bar {
+	background-color: #ddd;
+}
+div.poll div.bar div.foreground {
+	background-color: #999;
+}
+/* Profiles
+
+/-------------------------------------------------------------- */
+
+.profile .picture {
+	float: none;
+}
+/* Styles for sub-headings on user profiles */
+
+.profile dt {
+	background-color: #ccc;
+}
+/* registro page
+/-------------------------------- */
+#pid-user-register #block-system-main {
+	float: left;
+	width: 400px;
+}
+#pid-user-register .description,
+#pid-user-register .form-item-field-nom-contacto-und-0-span,
+#pid-user-register .form-item-field-apellido-und-0-span,
+#pid-user-register .form-item-field-sexo-span,
+#pid-user-register .form-item-field-ocupacion-span,
+#pid-user-register .form-item-field-ciudas-span,
+#pid-user-register .edit-field-tel-contacto-und-0-span,
+#pid-user-register .form-item-name-span,
+#pid-user-register .form-item-mail-span,
+#pid-user-register .form-item-pass-pass2-span {
+	color:#03F;
+}
+#block-block-7 {
+	background-color: #EDEDED;
+	float: right;
+	height: 350px;
+	margin-right: 10px;
+	width: 275px;
+}
+#comofunciona {
+	color: #FFF;
+	font-size: 200%;
+	line-height: 200%;
+	margin-top: 90px;
+	text-align: center;
+}
+form#user-register-form label {
+	display: inline-block;
+	width: 150px;
+}
+form#user-register-form input, form#user-register-form select, form#user-register-form .form-radios {
+	display: inline-block;
+	width: 210px;
+}
+form#user-register-form .form-radio {
+	display: inline-block;
+	width: 20px;
+}
+form#user-register-form label.option {
+	width: 75px;
+}
+form#user-register-form .form-type-radio {
+	display: inline-block;
+	width: 100px;
+}
+#content form#user-register-form #terms-of-use {
+	height: 20px;
+}
+#content form#user-register-form #terms-of-use p {
+	margin: 0;
+}
+#content input#edit-terms-of-use--2 {
+	width: 30px;
+}
+form#user-register-form #edit-terms-of-use label[for=edit-terms-of-use--2] {
+	width: 320px;
+}
+.form-item-pass-pass1 {
+	width: 380px;
+}
+.password-strength {
+	width: 150px;
+}
+/* registro empresa
+/---------------------------------------- */
+#pid-node-add-empresa .form-item-title-span,
+#pid-node-add-empresa .edit-field-direccion-und-0-span,
+#pid-node-add-empresa .edit-field-muestradire-und-0-span,
+#pid-node-add-empresa .edit-field-telefono-und-0-span,
+#pid-node-add-empresa .form-item-field-web-und-0-span,
+#pid-node-add-empresa .form-item-field-zona-span,
+#pid-node-add-empresa .form-item-field-servicios-span,
+#pid-node-add-empresa .form-item-field-atencion-span,
+#pid-node-add-empresa .form-item-field-formas-pago-span,
+#pid-node-add-empresa .form-item-field-rango-de-precios-span,
+#pid-node-add-empresa .form-item-field-ul.menugorias-span,
+#pid-node-add-empresa .form-item-field-barrio-und-0-span {
+	color:#F00;
+    display: inline-block;
+}
+#pid-node-add-empresa .tabledrag-toggle-weight-wrapper {
+	display:none;
+}
+#pid-node-add-empresa .field-multiple-drag,
+#pid-node-add-empresa .tabledrag-hide,
+#pid-node-add-empresa .delta-order,
+#pid-node-add-empresa #field-telefono-values tr th:nth-child(2),
+#pid-node-add-empresa #edit-field-direccion .clearfix,
+#pid-node-add-empresa #edit-field-muestradire .clearfix,
+#pid-node-add-empresa #edit-field-telefono .clearfix {
+	visibility:hidden;
+}
+#pid-node-add-empresa tr.odd,
+#pid-node-add-empresa tr.odd td,
+#pid-node-add-empresa thead th,
+#pid-node-add-empresa th {
+	background-color:transparent;
+	border-bottom:1px solid #E3E3E3;
+}
+
+form#empresa-node-form .form-wrapper {
+	padding: 3px 0;
+}
+form#empresa-node-form label {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+}
+form#empresa-node-form input, form#empresa-node-form .form-radios, form#empresa-node-form textarea, form#empresa-node-form .description, form#empresa-node-form .resizable-textarea {
+	display: inline-block;
+	float: right;
+	width: 510px;
+}
+form#empresa-node-form input#edit-field-logo-und-0-upload {
+    float: left;
+    margin-left: 155px;
+    width: 250px !important;
+}
+form#empresa-node-form input#edit-field-logo-und-0-upload-button {
+	float:right;
+	width:150px;	
+}
+form#empresa-node-form #edit-field-sucursales-empresa {
+	clear:both;
+	margin-right:340px;
+	padding:0;
+}
+form#empresa-node-form .form-radio {
+	display: inline-block;
+	width: 20px;
+}
+form#empresa-node-form label.option {
+	float: right;
+	width: 75px;
+}
+form#empresa-node-form .form-type-radio {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+}
+#content form#empresa-node-form #terms-of-use {
+	height: 20px;
+}
+#content form#empresa-node-form #terms-of-use p {
+	margin: 0;
+}
+#content input.form-checkbox {
+	width: 30px;
+}
+form#empresa-node-form #edit-terms-of-use label[for=edit-terms-of-use--2] {
+	width: 320px;
+}
+form#empresa-node-form .resizable-textarea {
+	display: block;
+}
+form#empresa-node-form #edit-field-rango-de-precios-und label {
+	width:150px;
+}
+form#empresa-node-form #edit-field-rango-de-precios-und,
+form#empresa-node-form #edit-field-atencion-und,
+form#empresa-node-form #edit-field-formas-pago-und {
+	display:inline-block;
+}
+form#empresa-node-form #edit-field-rango-de-precios-und .form-item,
+form#empresa-node-form #edit-field-atencion-und .form-item,
+form#empresa-node-form #edit-field-formas-pago-und .form-item {
+	float:left;
+}
+form#empresa-node-form input#edit-field-direccion-und-add-more,
+form#empresa-node-form input#edit-field-muestradire-und-add-more,
+form#empresa-node-form input#edit-field-telefono-und-add-more,
+form#empresa-node-form input#edit-field-logo-und-0-upload-button {
+  background: none;
+}
+form#empresa-node-form input#edit-submit {
+	width:120px;
+}
+form#empresa-node-form #edit-field-sucursales-empresa label,
+form#empresa-node-form #edit-field-sucursales-empresa input {
+	display:none;
+}
+form#empresa-node-form thead {
+	float:left;
+	width:150px;
+}
+form#empresa-node-form tbody,
+form#empresa-node-form tbody td {
+	float:right;
+	width:510px;
+}
+form#empresa-node-form .form-textarea-wrapper {
+	float:right;
+	margin-left:-10px;
+	width:510px;
+}
+form#empresa-node-form textarea,
+form#empresa-node-form .form-item input,
+form#empresa-node-form .form-item select,
+form#empresa-node-form #content-region input.form-text {
+	margin-left:4px;
+    max-width: 100%;
+}
+form#empresa-node-form  #edit-field-direccion tbody tr td:nth-child(1),
+form#empresa-node-form  #edit-field-direccion tbody tr td:nth-child(3),
+form#empresa-node-form  #edit-field-direccion .clearfix,
+form#empresa-node-form  #edit-field-muestradire tbody tr td:nth-child(1),
+form#empresa-node-form  #edit-field-muestradire tbody tr td:nth-child(3),
+form#empresa-node-form  #edit-field-muestradire .clearfix,
+form#empresa-node-form  #edit-field-telefono tbody tr td:nth-child(1),
+form#empresa-node-form  #edit-field-telefono tbody tr td:nth-child(3),
+form#empresa-node-form  #edit-field-telefono .clearfix {
+	display:none;
+}
+form#empresa-node-form  #edit-field-direccion input,
+form#empresa-node-form  #edit-field-muestradire input,
+form#empresa-node-form  #edit-field-telefono input {
+	padding-right:4px;
+}
+form#empresa-node-form tbody {
+	border:none;
+}
+form#empresa-node-form #edit-field-informaci-n-empresa-descrr textarea {
+	margin-right:4px;
+}
+form#empresa-node-form #edit-field-recomendados {
+	margin-top:15px;
+}
+form#empresa-node-form #edit-field-barrio {
+	margin-top:15px;
+}
+
+/* tips page
+/-------------------------------------- */
+
+#pid-tips #block-system-main {
+	background: #FFF url(../images/bck.views.tips.png) repeat-x left top;
+	float: left;
+	margin-left: 10px;
+	width: 500px;
+}
+#pid-tips #block-system-main .view-header p {
+	color: #FFF;
+	height:20px;
+	margin: 0 0 10px 0;
+}
+#block-multiblock-1 {
+	background-color: #FFF;
+	float: right;
+	margin-right: 10px;
+	width: 150px;
+	border-radius:3px 3px 0 0;
+}
+#pid-tips .jcarousel-skin-tango {
+	padding: 0;
+}
+#pid-tips .views-view-grid td {
+	background-color: #EDEDED;
+	border-radius: 7px;
+	box-shadow: 2px 2px 2px 2px rgba(204, 204, 204, 0.6);
+	display: inline-block;
+	margin: 9px 3px;
+	padding: 4px;
+	vertical-align: top;
+	width: 142px;
+}
+#pid-tips .item-list a, #pid-tips ul.pager li.pager-current {
+	border: none;
+	background-color: transparent;
+	color: #0082CA;
+}
+#pid-tips .view-recomendados li.views-row .views-field-title a {
+  color: #000000;
+  font-weight: bold;
+}
+#pid-tips .view-recomendados li.views-row .views-field-nid {
+  font-size: 10px;
+}
+#pid-tips .views-field-title {
+	background-color: #FFF;
+	padding: 5px;
+}
+#pid-tips .view-listado-de-tips .views-field-title {
+	text-align:center;
+	width: 140px;
+}
+#pid-tips .views-view-grid td a {
+	color: #0082CA;
+	font-weight: bold;
+}
+#pid-tips .jcarousel-clip-vertical {
+	height: 445px;
+}
+#pid-tips h1.title {
+	background: url("../images/tipsico.png") no-repeat scroll 50px top transparent;
+	height: 30px;
+	margin-bottom:0;
+}
+.jcarousel-skin-tango .jcarousel-navigation li.active a {
+	background-color: #0082CA;
+	color: white;
+}
+.node-type-tips #block-system-main {
+	background-color: #FFF;
+	float: left;
+	margin-left: 10px;
+	width: 500px;
+}
+.node-type-tips #block-fb_social-Facebook {
+	display: none;/*ya esta en el nodo*/
+	float: left;
+	position: absolute;
+	width: 200px;
+}
+.node-type-tips h1.title {
+	background-color: #0082CA;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	padding: 5px 10px;
+	width: 480px;
+}
+.node-type-tips .meta {
+	display: none;
+}
+.node-type-tips .field-type-image {
+	margin-top: 10px;
+}
+.node-type-tips #block-multiblock-1 {
+	margin-top: -30px;
+}
+.node-type-tips .view-recomendados .item-list li.views-row  {
+	border-bottom: 1px dashed #0082CA;
+}
+.node-type-tips .views-field-title {
+  padding: 9px 0;
+}
+.node-type-tips .view-recomendados li.views-row .views-field-title a {
+  color: #000000;
+  font-weight: bold;
+}
+.node-type-tips .view-recomendados li.views-row .views-field-nid {
+  font-size: 10px;
+}
+
+#pid-tips .view-recomendados ul {
+	margin:0;
+}
+#pid-tips .view-recomendados li {
+	list-style:none;
+}
+#pid-tips .view-recomendados .item-list li.views-row  {
+	border-bottom: 1px dashed #0082CA;
+	width: 130px;
+}
+#pid-tips .views-field-title {
+  padding: 9px 0;
+  width: 125px;
+}
+.views-field.views-field-field-logo .field-content a img {
+	width: auto;
+	height: 65px;
+}
+
+/* publicidad lateral */
+#block-block-10 {
+	background-color: #F6F6F6;
+	color: #E3E3E3;
+	float: right;
+	margin-right: 10px;
+	overflow:hidden;
+	width: 150px;
+}
+
+#block-block-12 .inner {
+	margin:0;
+}
+
+/* empresa page
+/-------------------------------------------------- */
+.node-type-empresa #content-region-inner {
+	background-color:#FFF;
+	margin:8px;
+}
+.node-type-empresa #content-region h1.title {
+	padding-top:16px;
+	width:365px;
+}
+#empresasfull {
+	background-color: #FFF;
+	width: 670px;
+}
+#empmapa {
+	border: 2px solid #CCCCCC;
+	height: 300px;
+	margin-right: 10px;
+	width: 300px;
+}
+#empmapa .field-label,
+#empmapa .simple-gmap-address {
+	display:none;
+}
+#emppublicidad {
+	height: 200px;
+	margin-right: 10px;
+	width: 300px;
+}
+#colemp1 {
+    float: left;
+    font-size: 11px;
+    width: 360px;
+}
+#colemp2 {
+	float: right;
+	margin-top: -40px;
+	width: 310px;
+}
+#colemp2 > p {
+	color:#0082CA;
+	font-weight:bold;
+	text-align:center;
+}
+.empdatos li {
+  background: url("http://desvare.nivelics.com/sites/all/themes/desvare/css/../images/tick.png") no-repeat scroll left 4px transparent;
+  padding-left: 15px;
+}
+
+#emplogo {
+	float:left;
+	width:130px;
+}
+#emplogo2 {
+	float:right;
+	margin-top:-43px;
+	padding-right:13px;
+	width:129px;
+	text-align:center;
+}
+#empdirs {
+	float:left;
+	overflow:hidden;
+	padding-left:5px;
+	width:140px;
+}
+#empicollamar {
+	float:left;
+	width:80px;
+}
+#emplinks {
+	clear:both;
+	margin-bottom:20px;
+	padding-left: 200px;
+}
+#emplinks > ul > li.last {
+	display:none;
+}
+#emplinks > ul {
+	margin-top:-5px;
+	position:absolute;
+}
+.empresasfull h1 {
+	display:none;
+}
+.empdatos {
+	float:left;
+	margin:5px 5px 15px 5px;
+	width:100px;
+}
+.empdatos.bl4,
+.empdatos.bl7 {
+	clear:both;
+}
+
+.empdatos.bl2{
+	width:127px !important;
+}
+
+#empotros{
+	width:127px !important;
+}
+
+
+.empdatos .field-label,
+.empdatos h3,
+#empsomos h3 {
+	background-color:transparent;
+	color:#0082CA;
+	font-size:12px;
+}
+.empdatos a {
+	color:#333;
+}
+.empdatos .field-item {
+	background: url("http://www.eldesvare.com/sites/all/themes/desvare/images/tick.png") no-repeat scroll left 4px transparent;
+  padding-left: 15px;
+}
+#empsomos {
+	clear:both;
+	padding-top:25px;
+	padding-right:8px;
+}
+
+#empsomos > div {
+	padding-left: 10px;
+	text-align:justify;
+}
+
+#empcalifica .rate-widget {
+	margin:-32px 0 0 50px;
+	position:absolute;
+}
+
+.node-type-empresa #empcalifica .rate-widget {
+	margin:-13px 0 0 50px;
+}
+
+.node-type-empresa #empcalifica p {
+	margin:0;
+}
+
+#block-block-12 {
+	height:250px;
+	width:300px;
+}
+
+.empciudad2 {
+
+	color:#C06;
+	font-size:18px;
+}
+
+.node-type-empresa #shadowbox_body {
+	background:url(../images/fondollamada.png) no-repeat right bottom #FFFFFF;
+	border:5px solid #0082CA;
+	border-radius:20px;
+}
+
+.node-type-empresa #shadowbox_body #shadowbox_body_inner,
+.node-type-empresa #shadowbox_body .contenido_pilas  {
+	background-color:transparent;
+}
+
+.node-type-empresa #shadowbox_body .contenido_pilas {
+	margin-top:20px;
+}
+
+/*  resultados-de-busqueda  page
+/--------------------------------------- */
+/*#pid-resultados-de-busqueda #block-system-main {
+	display: none;
+}*/
+#block-views-resultado_de_busuqeda-block {
+	float: left;
+	margin-left: 10px;
+	width: 510px;
+}
+#block-views-resultado_de_busuqeda-block .gutter {
+	margin: 0;
+}
+#block-views-resultado_de_busuqeda-block .view-filters {
+	background-color: #FFFFFF;
+	float: left;
+	padding: 3px;
+	width: 144px;
+	border-radius:3px 3px 0 0;
+}
+#pid-resultados-de-busqueda select {
+	color: #0082CA;
+	display:block;
+	font-size:11px;
+	height:17px;
+	width: 150px;
+	margin:1px 0 0 -1px;
+}
+#pid-resultados-de-busqueda .views-exposed-widget {
+	margin-bottom: 5px;
+}
+#pid-resultados-de-busqueda .item-list .js {
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    width: 350px;
+}
+#pid-resultados-de-busqueda .block ul {
+	margin: 0;
+	padding:0;
+}
+#pid-resultados-de-busqueda .view-resultado-de-busuqeda > div > .item-list > ul > li {
+	background-color: #FFFFFF;
+	border-bottom: 1px dashed #0082CA;
+	float: right;
+	list-style: none outside none;
+	min-height:96px;
+	padding: 4px;
+	width: 342px;
+}
+#pid-resultados-de-busqueda .item-list a {
+	color: #000;
+}
+#pid-resultados-de-busqueda .item-list li.pager-item a, #pid-resultados-de-busqueda .item-list li.pager-current, #pid-resultados-de-busqueda ul.pager a, #pid-resultados-de-busqueda ul.pager li.pager-current {
+	border: none;
+	background-color: transparent;
+	color: #0082CA;
+}
+#pid-resultados-de-busqueda .block ul.pager {
+	margin-left: 230px;
+	padding: 50px 0;
+	width: 200px;
+}
+#pid-resultados-de-busqueda .item-list ul.pager li {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	width: 5px;
+}
+#pid-resultados-de-busqueda .item-list ul.pager li.pager-next, #pid-resultados-de-busqueda .item-list ul.pager li.pager-last {
+	width: 50px;
+}
+#pid-resultados-de-busqueda .views-field-field-direccion, #pid-resultados-de-busqueda .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-resultados-de-busqueda .views-field-field-muestradire, #pid-resultados-de-busqueda .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-resultados-de-busqueda .view-resultado-de-busuqeda .views-field-nid {
+	/*position:absolute;*/
+}
+#pid-resultados-de-busqueda .views-field-nid #llamar_resultado {
+	cursor:pointer;
+	float:right;
+	margin-top:-75px;
+	width:55px;
+}
+#pid-resultados-de-busqueda .views-field-nid .califica {
+	float:left;
+	margin: 0;
+	width:130px;
+}
+#pid-resultados-de-busqueda .views-field-nid .califica .rate-widget {
+	display:inline-block;
+	overflow:hidden;
+	width:60px;
+}
+#pid-resultados-de-busqueda  .views-field-nid .califica .rate-widget ul.rate-fivestar-processed li {
+	width:10px;
+}
+#pid-resultados-de-busqueda  .views-field-nid .califica .item-list {
+	margin-left:0;
+}
+#pid-resultados-de-busqueda .views-field-nid .mas_detalles {
+	float:left;
+	line-height:10px;
+	margin: 3px 10px 0 0;
+	width:70px;
+}
+#pid-resultados-de-busqueda .views-field-nid .mas_detalles a {
+	color:#0082CA;
+}
+#pid-resultados-de-busqueda .views-field-field-logo-1 {
+	float: left;
+	margin-right: 8px;
+	width: 75px;
+}
+#pid-resultados-de-busqueda .views-field-title {
+	font-weight:bold;
+	padding: 9px 0;
+}
+#pid-resultados-de-busqueda .form-type-radio, #pid-resultados-de-busqueda .form-item {
+	float: left;
+	margin-right: 2px;
+}
+#pid-resultados-de-busqueda label.option {
+	color: #0082CA;
+}
+#pid-resultados-de-busqueda input {
+	float:right;
+	padding: 1px;
+	margin-right:7px;
+}
+#block-views-nube_de_tags-block {
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    padding: 3px;
+    width: 144px;
+}
+#block-views-nube_de_tags-block .inner {
+	margin:0;
+}
+#block-views-nube_de_tags-block .views-row {
+	display:inline-block;
+}
+#block-views-nube_de_tags-block .views-row a {
+	color:#878785;
+	
+}
+/* tags by camilo*/
+#block-views-nube_de_tags-block .views-row.views-row-1 {
+	font-size: 12px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-2 {
+	font-size: 10px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+#block-views-nube_de_tags-block .views-row.views-row-4 {
+	font-size: 11px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-5 {
+	font-size: 12px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-6 {
+	font-size: 14px;
+	font-weight: bold;
+}
+#block-views-nube_de_tags-block .views-row.views-row-7 {
+	font-size: 11px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-8 {
+	font-size: 10px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-9 {
+	font-size: 12px;
+	font-weight: bold;
+}
+#block-views-nube_de_tags-block .views-row.views-row-10 {
+	font-size: 14px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-11 {
+	font-size: 10px;
+}
+#block-views-nube_de_tags-block .views-row.views-row-12 {
+	font-size: 12px;
+	font-weight: bold;
+}
+/* /tags by camilo*/
+
+.views-exposed-form label {
+  font-weight:bold;
+  font-size:10px;
+  float:left;
+  min-width:55px;
+}
+
+.views-exposed-form .views-exposed-widget{
+	padding-right:0;
+}
+
+/* bloque recomendados */
+#pid-resultados-de-busqueda #block-multiblock-1 .item-list {
+	margin:0;
+	width:130px;
+}
+#pid-aliados #block-multiblock-1 .item-list {
+	margin:0;
+	width:130px;
+}
+#pid-resultados-de-busqueda .item-list ul.rate-fivestar-processed li {
+	border:none;
+	padding:0;
+	width:10px;
+}
+#pid-aliados .item-list ul.rate-fivestar-processed li {
+	border:none;
+	padding:0;
+	width:10px;
+}
+#pid-resultados-de-busqueda .item-list ul.rate-fivestar-processed li img {
+	width:50%;
+}
+#pid-aliados .item-list ul.rate-fivestar-processed li img {
+	width:50%;
+}
+.view-recomendados ul {
+	margin:0;
+}
+
+.view-recomendados li {
+	list-style:none;
+}
+
+.view-recomendados ul,
+.view-recomendados li.views-row {
+	width:50px;
+}
+
+.block-multiblock .view-recomendados ul
+ {
+	width:130px;
+}
+
+
+
+.block-multiblock .view-recomendados li.views-row {
+	width:140px;
+}
+
+.block-multiblock .score{
+	width:193px;
+	align:right;
+}
+
+
+
+
+
+
+
+.block-multiblock .view-recomendados li.views-row{
+	border-bottom: 1px dashed #0082CA;
+}
+
+.view-recomendados .rate-widget {
+    float: right;
+    margin-right: 16px;
+    margin-top: 2px;
+    width: 48px;}
+
+#block-multiblock-1 {
+	padding:10px 0;
+}
+
+#block-multiblock-1 .inner {
+	height:325px;
+	margin-right:0;
+	overflow-x:hidden;
+}
+
+#pid-resultados-de-busqueda .view-recomendados li.views-row .views-field-nid {
+	font-size:10px;
+	margin-top: 5px;
+}
+
+#pid-resultados-de-busqueda .view-recomendados li.views-row .views-field-nid > span > a {
+    float: left;
+    font-size: 9px;
+    line-height: 9px;
+    margin: -25px 0 0;
+    width: 120px;
+}
+
+#pid-resultados-de-busqueda .view-recomendados li.views-row span > a {
+	color:#0082CA;
+	font-size:12px;
+}
+
+#pid-resultados-de-busqueda .view-recomendados li.views-row .views-field-title a {
+	color:#000;
+	font-weight:bold;
+}
+
+
+/* categorias pages
+/---------------------------------------------- */
+.page-taxonomy #block-system-main {
+	width:550px;
+}
+#pid-categorias .view-categorias {
+	width:505px;
+}
+#pid-categorias .view-categorias table {
+	background:url(../images/tabla.header.png) repeat-x center top #FFF;
+	padding:5px;
+}
+#pid-categorias .view-categorias table tr:first-child td {
+	padding-top:40px;
+}
+#pid-categorias .view-categorias td,
+#pid-categorias .view-categorias td > div {
+	text-align:center;
+	width:115px;
+}
+#pid-categorias .views-field-name {
+	height:68px;
+}
+#pid-categorias .views-field-name a {
+	color:#1C84C0;
+}
+/* bloque recomendados*/
+#pid-categorias #sidebar-second {
+    background-color: #FFFFFF;
+    float: right;
+    margin:50px 10px 0 0;
+	padding: 10px 0;
+    width: 150px;
+}
+#pid-categorias #sidebar-second .inner {
+	height: 325px;
+	margin-right: 0;
+}
+#pid-categorias #sidebar-second .item-list {
+	background-color: #FFFFFF;
+	float: left;
+	margin: 0;
+	width: 50px;
+}
+#pid-categorias #sidebar-second .block ul {
+  margin: 5px 0 0 0;
+  padding: 0;
+  width:130px;
+}
+#pid-categorias #sidebar-second .item-list li {
+  background-color: #FFFFFF;
+  border-bottom: 1px dashed #0082CA;
+  float: left;
+  list-style: none outside none;
+  width:130px;
+}
+#pid-categorias #sidebar-second .item-list li ul.rate-fivestar-processed li {
+	border:none;
+	width:10px;
+}
+#pid-categorias #sidebar-second .views-field-title {
+  font-weight: bold;
+  padding: 9px 0;
+}
+#pid-categorias #sidebar-second .views-field-title a {
+  color: #000000;
+  font-weight: bold;
+}
+#pid-categorias #sidebar-second .view-recomendados li.views-row .views-field-nid {
+  font-size: 10px;
+}
+#pid-categorias #sidebar-second .view-recomendados li.views-row .views-field-nid .field-content > a {
+	display: inline-block;
+	text-align:right;
+	width:130px;
+}
+
+/* comentarios */
+#comments  {
+	border:1px solid #E3E3E3;
+	padding-top:170px;
+	position:relative;
+}
+
+#comments .filter-wrapper {
+	display:none;
+}
+
+#comments h2.title,
+#comments form > div > .form-type-item,
+#comments form > div > .form-item-subject,
+#comments form > div #edit-preview,
+#comments .submitted,
+#comments ul.links {
+	display:none;
+}
+
+#comments form > div #edit-submit {
+	margin-left: 280px;
+}
+
+#comments form .form-textarea {
+	width:340px;
+}
+
+#comments #edit-comment-body {
+	margin-left:1.5em;
+}
+
+#comments h3,
+#comments h3 a {
+	background-color:transparent;
+	color:#1C84C0;
+	margin:0;
+}
+
+#comments .field-name-comment-body p {
+	margin-top:0;
+}
+
+#comments form {
+	position:absolute;
+	top:0;
+}
+
+
+/* bloque relacionados
+/----------------------------------------- */
+#block-views-nube_de_tags-block {
+    position: absolute;
+    top: 875px;
+}
+
+#pid-resultados-de-busqueda #main-group {
+	min-height:870px;
+}
+
+#pid-resultados-de-busqueda #block-views-resultado_de_busuqeda-block h2.title {
+	background-color:#FFF;
+	margin-bottom:0;
+	padding-left:3px;
+	width:147px;
+	border-radius:3px 3px 0 0;
+}
+
+/*  pid-aliados  page
+/--------------------------------------- */
+#pid-aliados #block-system-main{
+	float: left;
+	margin-left: 10px;
+	width: 510px;
+}
+#pid-aliados #block-system-main.gutter {
+	margin: 0;
+}
+#pid-aliados #block-system-main.view-filters {
+	background-color: #FFFFFF;
+	float: left;
+	padding: 3px;
+	width: 144px;
+}
+#pid-aliados select {
+	color: #0082CA;
+	width: 152px;
+	font-size:11px;
+}
+#pid-aliados .views-exposed-widget {
+	margin-bottom: 5px;
+}
+#pid-aliados .item-list2 {
+    background-color: #FFFFFF;
+    float: right;
+    margin-left: 10px;
+}
+#pid-aliados .view-aliados .item-list {
+    width: 350px;
+}
+#pid-aliados .block ul {
+	margin: 0;
+	padding:0;
+}
+#pid-aliados .view-resultado-de-busuqeda > div > .item-list > ul > li {
+	background-color: #FFFFFF;
+	border-bottom: 1px dashed #0082CA;
+	float: right;
+	list-style: none outside none;
+	min-height:96px;
+	padding: 4px;
+	width: 342px;
+}
+#pid-aliados .item-list a {
+	color: #000;
+}
+#pid-aliados .item-list li.pager-item a, #pid-aliados .item-list li.pager-current, #pid-aliados ul.pager a, #pid-aliados ul.pager li.pager-current {
+	border: none;
+	background-color: transparent;
+	color: #0082CA;
+}
+#pid-aliados .block ul.pager {
+	margin: 0 auto;
+	padding: 50px 0;
+	width: 200px;
+}
+#pid-aliados .item-list ul.pager li {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	width: 5px;
+}
+#pid-aliados .item-list ul.pager li.pager-next, #pid-aliados .item-list ul.pager li.pager-last {
+	width: 50px;
+}
+#pid-aliados .views-field-field-direccion, #pid-aliados .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-aliados .views-field-field-muestradire, #pid-aliados .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-aliados .view-resultado-de-busuqeda .views-field-nid {
+	/*position:absolute;*/
+}
+#pid-aliados .views-field-nid #llamar_resultado {
+	cursor:pointer;
+	float:right;
+	margin-top:-75px;
+	width:55px;
+}
+#pid-aliados .views-field-nid .califica {
+	float:left;
+	margin: 0;
+	width:130px;
+}
+#pid-aliados .views-field-nid .califica .rate-widget {
+	display:inline-block;
+	overflow:hidden;
+	width:60px;
+}
+#pid-aliados  .views-field-nid .califica .rate-widget ul.rate-fivestar-processed li {
+	width:10px;
+}
+#pid-aliados  .views-field-nid .califica .item-list {
+	margin-left:0;
+}
+#pid-aliados .views-field-nid .mas_detalles {
+	float:left;
+	line-height:10px;
+	margin: 3px 10px 0 0;
+	width:70px;
+}
+#pid-aliados .views-field-nid .mas_detalles a {
+	color:#0082CA;
+}
+#pid-aliados .views-field-field-logo-1 {
+	float: left;
+	margin-right: 8px;
+	width: 75px;
+}
+#pid-aliados .views-field-title {
+	font-weight:bold;
+	padding: 9px 0;
+}
+#pid-aliados .form-type-radio, #pid-aliados .form-item {
+	float: left;
+	margin-right: 2px;
+}
+#pid-aliados label.option {
+	color: #0082CA;
+}
+
+#pid-aliados .view-id-aliados ol > li {
+    background-color: #FFFFFF;
+    border-bottom: 1px dashed #0082CA;
+    float: right;
+    list-style: none outside none;
+    min-height: 96px;
+    padding: 4px;
+    width: 342px;
+}
+
+/*=======================================
+MODIFICACION DEFINITIVA DE TAMÃ‘AÃ‘OS POR PEDIDO
+==========================================*/
+
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspTrack
+{
+	background: #dde;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #bbd;
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+/*#block-views-recomendados-block_1
+{
+	height: 325px;
+}*/
+
+.form-item-field-autorizacion-und label,
+.form-item-field-autorizacion-empresas-und label{
+	width:345px !important;
+}
+
+fieldset.captcha{
+	border:none;
+}
+
+fieldset.captcha .description,
+fieldset.captcha legend{
+	display:none;
+}
+
+#user-register-form #edit-submit{
+	width: 90px !important;
+}
+
+#block-views-resultado_de_busuqeda-block,
+#block-views-resultado_de_busuqeda-block .pager{
+	/*display:none;
+*/}
+#block-views-aliadosiado-block,
+#block-views-aliadosiado-block .pager{
+	/*display:none;
+*/}
+.form-item-field-tipo-establecimiento-tid label{
+	width:126px;
+}
+
+#edit-field-parqueadero-value-wrapper label,
+#edit-field-sucursales-empresa-value-wrapper label{
+	min-width:20px;
+}
+
+/*#edit-field-rango-de-precios-tid-wrapper,
+#edit-field-servicios-tid-wrapper,
+#edit-field-tipo-establecimiento-tid-wrapper,
+#edit-field-sucursales-empresa-value-wrapper,
+#edit-field-categorias-tid-wrapper{
+	display:none;
+}*/
+
+
+/* basic scrollbar styling */
+/* vertical scrollbar */
+.mCSB_container{
+	width:130px;
+	margin-right:30px;
+	overflow:hidden;
+}
+.mCSB_container.mCS_no_scrollbar{
+	margin-right:0;
+}
+.mCustomScrollBox .mCSB_scrollTools{
+	width:16px;
+	height:100%;
+	top:0;
+	right:0;
+}
+.mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.mCSB_scrollTools .mCSB_buttonUp+.mCSB_draggerContainer{
+	padding-bottom:40px;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	width:7px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_scrollTools .mCSB_dragger{
+	cursor:pointer;
+	width:100%;
+	height:30px;
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:5px;
+	height:100%;
+	margin:0 auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+	text-align:center;
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown{
+	height:20px;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	bottom:0;
+	margin-top:-40px;
+}
+/* horizontal scrollbar */
+.mCSB_horizontal .mCSB_container{
+	height:auto;
+	margin-right:0;
+	margin-bottom:30px;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_container.mCS_no_scrollbar{
+	margin-bottom:0;
+}
+.mCSB_horizontal.mCustomScrollBox .mCSB_scrollTools{
+	width:100%;
+	height:16px;
+	top:auto;
+	right:auto;
+	bottom:0;
+	left:0;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerContainer{
+	height:100%;
+	width:auto;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	overflow:hidden;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft+.mCSB_draggerContainer{
+	padding-bottom:0;
+	padding-right:20px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_draggerRail{
+	width:100%;
+	height:2px;
+	margin:7px 0;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger{
+	width:30px;
+	height:100%;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	width:100%;
+	height:4px;
+	margin:6px auto;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	border-radius:10px;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	width:20px;
+	height:100%;
+	overflow:hidden;
+	margin:0 auto;
+	cursor:pointer;
+	float:left;
+}
+.mCSB_horizontal .mCSB_scrollTools .mCSB_buttonRight{
+	right:0;
+	bottom:auto;
+	margin-left:-40px;
+	margin-top:-16px;
+	float:right;
+}
+
+/* default scrollbar colors and backgrounds */
+.mCustomScrollBox .mCSB_scrollTools{
+	opacity:0.75;
+}
+.mCustomScrollBox:hover .mCSB_scrollTools{
+	opacity:1;
+}
+.mCSB_scrollTools .mCSB_draggerRail{
+	background:#000; /* rgba fallback */
+	background:rgba(0,0,0,0.4);
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+	background:#fff; /* rgba fallback */
+	background:rgba(255,255,255,0.75);
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+	background:rgba(255,255,255,0.85);
+	filter:"alpha(opacity=85)"; -ms-filter:"alpha(opacity=85)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar{
+	background:rgba(255,255,255,0.9);
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp,
+.mCSB_scrollTools .mCSB_buttonDown,
+.mCSB_scrollTools .mCSB_buttonLeft,
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-image:url(mCSB_buttons.png);
+	background-repeat:no-repeat;
+	opacity:0.4;
+	filter:"alpha(opacity=40)"; -ms-filter:"alpha(opacity=40)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp{
+	background-position:0 0;
+	/* 
+	sprites locations are 0 0/-16px 0/-32px 0/-48px 0 (light) and -80px 0/-96px 0/-112px 0/-128px 0 (dark) 
+	*/
+}
+.mCSB_scrollTools .mCSB_buttonDown{
+	background-position:0 -20px;
+	/* 
+	sprites locations are 0 -20px/-16px -20px/-32px -20px/-48px -20px (light) and -80px -20px/-96px -20px/-112px -20px/-128px -20px (dark) 
+	*/
+}
+.mCSB_scrollTools .mCSB_buttonLeft{
+	background-position:0 -40px;
+	/* 
+	sprites locations are 0 -40px/-20px -40px/-40px -40px/-60px -40px (light) and -80px -40px/-100px -40px/-120px -40px/-140px -40px (dark) 
+	*/
+}
+.mCSB_scrollTools .mCSB_buttonRight{
+	background-position:0 -56px;
+	/* 
+	sprites locations are 0 -56px/-20px -56px/-40px -56px/-60px -56px (light) and -80px -56px/-100px -56px/-120px -56px/-140px -56px (dark) 
+	*/
+}
+.mCSB_scrollTools .mCSB_buttonUp:hover,
+.mCSB_scrollTools .mCSB_buttonDown:hover,
+.mCSB_scrollTools .mCSB_buttonLeft:hover,
+.mCSB_scrollTools .mCSB_buttonRight:hover{
+	opacity:0.75;
+	filter:"alpha(opacity=75)"; -ms-filter:"alpha(opacity=75)"; /* old ie */
+}
+.mCSB_scrollTools .mCSB_buttonUp:active,
+.mCSB_scrollTools .mCSB_buttonDown:active,
+.mCSB_scrollTools .mCSB_buttonLeft:active,
+.mCSB_scrollTools .mCSB_buttonRight:active{
+	opacity:0.9;
+	filter:"alpha(opacity=90)"; -ms-filter:"alpha(opacity=90)"; /* old ie */
+}
+
+#views-exposed-form-resultado-de-busuqeda-block #edit-title{
+	width:140px;
+}
+#views-exposed-form-aliadosiado-block #edit-title{
+	width:140px;
+}
+
+#edit-field-parqueadero-value-wrapper,
+#edit-field-servicios-tid-wrapper,
+#edit-field-tipo-establecimiento-tid-wrapper,
+#edit-field-sucursales-empresa-value-wrapper,
+#edit-field-categorias-tid-wrapper,
+#edit-title-wrapper,
+.wiews-widget-sort-by,
+.views-widget-sort-order{
+	display:none;
+}
+
+.opciones a{
+	color: #0082CA;
+    font-size: 11px;
+	font-weight:bold;
+}
+.opciones.menos{
+	display:none;
+}
+.opciones{
+	margin-top:10px;
+	clear:both;
+}
+
+.orden_resultados{
+	background: #0082CA;
+	color:#fff !important;
+	padding:5px 10px;
+	margin-left:160px;
+	margin-top:-17px;
+	border-radius:3px 3px 0 0;
+}
+.orden_resultados a{
+	color:#fff !important;
+	text-decoration: none;
+}
+#empcalifica{
+    
+}
+
+#empicollamar{
+  cursor:pointer;
+}
+
+#block-views-resultado_de_busuqeda-block Ê.view-resultado-de-busuqeda .item-list{
+Êfloat:Êright !important;
+}
+#block-views-aliadosiado-block Ê.view-aliadosiado .item-list{
+Êfloat:Êright !important;
+}
+#field-telefono-add-more-wrapper .form-item .description
+{
+color: #0082CA
+}
+#field-muestradire-add-more-wrapper .form-item .description
+{
+color: #0082CA
+}
+#field-direccion-add-more-wrapper .form-item .description
+{
+color: #0082CA
+}
+.field-name-comment-body .text-format-wrapper .ckeditor_links
+{
+display:none !important;
+}
+
+.captcha .fieldset-wrapper label
+{
+	width: 70px !important;
+}
+.form-item-field-clave-value {
+    
+    display: none;
+}
+/*  resultados-de-busqueda  page
+/--------------------------------------- */
+/*#pid-resultados-de-busqueda #block-system-main {
+	display: none;
+}*/
+#block-views-aliadosiado-block {
+	float: left;
+	margin-left: 10px;
+	width: 510px;
+}
+#block-views-aliadosiado-block .gutter {
+	margin: 0;
+}
+#block-views-aliadosiado-block .view-filters {
+	background-color: #FFFFFF;
+	float: left;
+	padding: 3px;
+	width: 144px;
+	border-radius:3px 3px 0 0;
+}
+#pid-aliados select {
+	color: #0082CA;
+	display:block;
+	font-size:11px;
+	height:17px;
+	width: 150px;
+	margin:1px 0 0 -1px;
+}
+#pid-aliados .views-exposed-widget {
+	margin-bottom: 5px;
+}
+#pid-aliados .item-list .js {
+    background-color: #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    width: 350px;
+}
+#pid-aliados .block ul {
+	margin: 0;
+	padding:0;
+}
+#pid-aliados .view-aliadosiado > div > .item-list > ul > li {
+	background-color: #FFFFFF;
+	border-bottom: 1px dashed #0082CA;
+	float: right;
+	list-style: none outside none;
+	min-height:96px;
+	padding: 4px;
+	width: 342px;
+}
+#pid-aliados .item-list a {
+	color: #000;
+}
+#pid-aliados .item-list li.pager-item a, #pid-aliados .item-list li.pager-current, #pid-aliados ul.pager a, #pid-aliados ul.pager li.pager-current {
+	border: none;
+	background-color: transparent;
+	color: #0082CA;
+}
+#pid-aliados .block ul.pager {
+	margin-left: 230px;
+	padding: 50px 0;
+	width: 200px;
+}
+#pid-aliados .item-list ul.pager li {
+	background-color: transparent;
+	border: none;
+	box-shadow: none;
+	width: 5px;
+}
+#pid-aliados .item-list ul.pager li.pager-next, #pid-aliados .item-list ul.pager li.pager-last {
+	width: 50px;
+}
+#pid-aliados .views-field-field-direccion, #pid-aliados .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-aliados .views-field-field-muestradire, #pid-aliados .views-field-field-web {
+	float: left;
+	width: 155px;
+}
+#pid-aliados .view-aliadosiado .views-field-nid {
+	/*position:absolute;*/
+}
+#pid-aliados .views-field-nid #llamar_resultado {
+	cursor:pointer;
+	float:right;
+	margin-top:-75px;
+	width:55px;
+}
+#pid-aliados .views-field-nid .califica {
+	float:left;
+	margin: 0;
+	width:130px;
+}
+#pid-aliados .views-field-nid .califica .rate-widget {
+	display:inline-block;
+	overflow:hidden;
+	width:60px;
+}
+#pid-aliados  .views-field-nid .califica .rate-widget ul.rate-fivestar-processed li {
+	width:10px;
+}
+#pid-aliados  .views-field-nid .califica .item-list {
+	margin-left:0;
+}
+#pid-aliados .views-field-nid .mas_detalles {
+	float:left;
+	line-height:10px;
+	margin: 3px 10px 0 0;
+	width:70px;
+}
+#pid-aliados .views-field-nid .mas_detalles a {
+	color:#0082CA;
+}
+#pid-aliados .views-field-field-logo-1 {
+	float: left;
+	margin-right: 8px;
+	width: 75px;
+}
+#pid-aliados.views-field-title {
+	font-weight:bold;
+	padding: 9px 0;
+}
+#pid-aliados .form-type-radio, #pid-aliados .form-item {
+	float: left;
+	margin-right: 2px;
+}
+#pid-aliados label.option {
+	color: #0082CA;
+}
+#pid-aliados input {
+	float:inherit;
+	padding: 0px;
+	margin-right:1px;
+}
+#pid-aliados .breadcrumb {
+    display: none;
+}
+#pid-aliados .gutter.title {
+    display:none;
+}
+#pid-aliados .title {
+    margin: 1px;
+}
+#block-block-19 {
+    color: #0082CA;
+    font-size: 12px;
+    margin-bottom: 1.2px;
+    margin-left: -1px;
+    margin-top: -13.8px;
+    padding: 1px;
+    text-align: right;
+}
+

@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+	background-image: url(../imagenes/fondo.png);
+	background-repeat: repeat;
+	font-family: Gill Sans Ultra Bold, Gloucester MT Extra Condensed, Gill Sans Ultra Bold Condensed, Goudy Stout, Franklin Gothic Medium Cond;
+	color:#666;
+}
+.Estructura{
+	width: 700px;
+	height: 740px;
+	margin: 50px;
+
+}
+.divPrincipal {
+	padding: 80px;
+	background:#FFF;
+	position: relative;
+	clip: rect(auto,auto,auto,auto);
+}
+
+.tablaGeneral tr .tituloTabla {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFF;
+	background-color: #069;
+	text-align: center;
+}
+.cuerpo {
+	background-color:#FFF;
+	font-family:Gill Sans Ultra Bold,Gloucester MT Extra Condensed, Gill Sans Ultra Bold Condensed, Goudy Stout, Franklin Gothic Medium Cond;
+}
+.btnIngreso {
+	text-align: center;
+	border: 1px dashed #CCC;
+}
+.cabezote {
+	background-image: url(../imagenes/bag-cabezote.jpg);
+	background-repeat: repeat-x;
+	vertical-align: top;
+	width: 731px;
+}
+
+.td {
+	font-size: 12px;
+	color: #333;
+	font-family: Gill Sans Ultra Bold, Gloucester MT Extra Condensed, Gill Sans Ultra Bold Condensed, Goudy Stout, Franklin Gothic Medium Cond;
+}
+.footer {
+	background-image: url(../imagenes/footer.jpg);
+	background-repeat: repeat-x;
+	height: 50px;
+	font-family:Gill Sans Ultra Bold,Gloucester MT Extra Condensed, Gill Sans Ultra Bold Condensed, Goudy Stout, Franklin Gothic Medium Cond;
+	font-size: 11px;
+	color: #FFF;
+	text-align: center;
+	padding-top: 8px;
+	padding-right: 30px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+}

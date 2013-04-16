@@ -1,0 +1,67 @@
+﻿<?php
+
+
+function generic_menu() {
+    $items['resultados-de-busqueda'] = array(
+      "title" => "Resultados de Busqueda", 
+      'page callback' => 'prueba',
+      "access arguments" => array("access content"),
+      "type" => MENU_CALLBACK
+    );
+    $items['set_cookie_llamada'] = array(
+      'page callback' => 'cookie_set',
+      "access arguments" => array("access content"),
+      "type" => MENU_CALLBACK
+    );
+	$items['enlazar_llamada'] = array(
+      'page callback' => 'enlazar_llamada',
+      "access arguments" => array("access content"),
+      "type" => MENU_CALLBACK
+    );
+    return $items;
+}
+
+function prueba(){
+  return "";   
+}
+
+function cookie_set(){
+	global $user;
+	$nid = $_POST['nid'];
+	$usuario = user_load($user->uid);
+	$empresa = node_load($nid);
+	$telefono = $empresa->field_telefono['und'][0]['value'];
+	$telefonou = $usuario->field_tel_contacto['und'][0]['value'];
+	$datos = array($nid,$telefono,$user->uid,$telefonou);
+	setcookie('llamada', serialize($datos), time() + 360);
+}
+
+function generic_form_alter (&$form, &$form_state, $form_id) {
+  if ($form_id == 'empresa_node_form') {
+    $form['actions']['submit']['#submit'][] = 'empresa_submit';
+  } 
+}
+
+function empresa_submit ($node,$form,&$form_state) {
+drupal_set_message(t('Su empresa fue creada y esta en proceso de validación por el administrator del sitio. Muy pronto el desvare.com se contactara con usted para la publicación de su empresa'), 'status');
+
+$node=node_load($nid);
+
+ // $form_state['redirect'] = ('node/add/empresa'); // Not $form_state['#redirect']
+ $form_state['redirect'] = 'node/add/empresa'; // Not $form_state['#redirect']
+}
+
+function enlazar_llamada(){
+	$url = "http://181.48.28.165/openc3/modules/client_custom/eldesvare/llamarweb.php";
+	//$url = "http://www.eldesvare.net.co/sites/all/themes/desvare/js/llamarweb_prueba.php";
+	$post_data = $_POST;
+	$ch = curl_init(); 
+	curl_setopt($ch, CURLOPT_URL, $url); 
+	curl_setopt($ch, CURLOPT_HEADER, TRUE); 
+	curl_setopt($ch, CURLOPT_NOBODY, TRUE); // remove body 
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE); 
+	curl_setopt($ch, CURLOPT_POST, true); 
+	curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data); 
+	$head = curl_exec($ch); 	
+	print_r($head);
+}

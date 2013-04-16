@@ -1,0 +1,22 @@
+<div class="block block-search grid16-11 first  odd" id="block-search-form">
+  <div class="gutter inner clearfix">
+            
+    <div class="content clearfix">
+      <form accept-charset="UTF-8" id="search-block-form" method="get" action="/resultados-de-busqueda" class="search-form" target="_self"><div><div class="container-inline">
+      <h2 class="element-invisible">Formulario de búsqueda</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label for="edit-search-block-form--2">¡En qué estás varado? </label>
+ <input type="text" maxlength="128" size="15" value="" name="field_informaci_n_empresa_descrr" id="edit-search-block-form--2" class="custom-search-default-value custom-search-box form-text">
+</div>
+<fieldset id="edit-popup" class="custom_search-popup form-wrapper custom_search-processed" style="display: none;"><div class="fieldset-wrapper"></div><a href="#" class="custom_search-popup-close">Close</a></fieldset>
+<div class="form-item form-type-select form-item-custom-search-vocabulary-2">
+  <label for="edit-custom-search-vocabulary-2" name="categoria">Categorías </label>
+ 
+  <?php
+   $categorias = taxonomy_get_tree(2); 
+   $html = '<select name="categoria" id="edit-custom-search-vocabulary-2" class="custom-search-selector custom-search-vocabulary form-select"><option>Seleccione uno</option>';
+   foreach ($categorias as $categoria){
+       if($categoria->parents[0]>0):
+           echo $categoria->name;
+       endif;
+       $hre
